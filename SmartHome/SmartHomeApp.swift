@@ -13,7 +13,8 @@ struct SmartHomeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Root()
+            MainView()
+                .environmentObject(HomeStore.shared)
         }
     }
 }
