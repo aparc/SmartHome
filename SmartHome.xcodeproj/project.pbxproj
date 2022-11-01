@@ -10,6 +10,9 @@
 		496A8BBC290DCE1D00973A59 /* HomeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496A8BBB290DCE1D00973A59 /* HomeStore.swift */; };
 		496A8BBE290DD86600973A59 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496A8BBD290DD86600973A59 /* MainView.swift */; };
 		496A8BC2290DE5D200973A59 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496A8BC1290DE5D200973A59 /* HomeKit.framework */; };
+		496A8BC5290F160C00973A59 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496A8BC4290F160C00973A59 /* Root.swift */; };
+		496A8BC7290F16AC00973A59 /* AccessoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496A8BC6290F16AC00973A59 /* AccessoryListView.swift */; };
+		496A8BC9290F238800973A59 /* RoomsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496A8BC8290F238800973A59 /* RoomsGridView.swift */; };
 		4991130E29009C7F00A14498 /* SmartHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4991130D29009C7F00A14498 /* SmartHomeApp.swift */; };
 		4991131029009C7F00A14498 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4991130F29009C7F00A14498 /* ContentView.swift */; };
 		4991131229009C8300A14498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4991131129009C8300A14498 /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 		496A8BBF290DE5D200973A59 /* SmartHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartHome.entitlements; sourceTree = "<group>"; };
 		496A8BC1290DE5D200973A59 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		496A8BC3290DFD3200973A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		496A8BC4290F160C00973A59 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		496A8BC6290F16AC00973A59 /* AccessoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryListView.swift; sourceTree = "<group>"; };
+		496A8BC8290F238800973A59 /* RoomsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsGridView.swift; sourceTree = "<group>"; };
 		4991130A29009C7F00A14498 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4991130D29009C7F00A14498 /* SmartHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeApp.swift; sourceTree = "<group>"; };
 		4991130F29009C7F00A14498 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				496A8BBD290DD86600973A59 /* MainView.swift */,
+				496A8BC4290F160C00973A59 /* Root.swift */,
+				496A8BC6290F16AC00973A59 /* AccessoryListView.swift */,
 				496A8BBB290DCE1D00973A59 /* HomeStore.swift */,
 				4991130C29009C7F00A14498 /* SmartHome */,
 				4991130B29009C7F00A14498 /* Products */,
@@ -83,6 +91,7 @@
 				4991131629009C8300A14498 /* Persistence.swift */,
 				4991131829009C8300A14498 /* SmartHome.xcdatamodeld */,
 				4991131329009C8300A14498 /* Preview Content */,
+				496A8BC8290F238800973A59 /* RoomsGridView.swift */,
 			);
 			path = SmartHome;
 			sourceTree = "<group>";
@@ -167,8 +176,11 @@
 			files = (
 				4991131729009C8300A14498 /* Persistence.swift in Sources */,
 				496A8BBC290DCE1D00973A59 /* HomeStore.swift in Sources */,
+				496A8BC5290F160C00973A59 /* Root.swift in Sources */,
 				496A8BBE290DD86600973A59 /* MainView.swift in Sources */,
 				4991131029009C7F00A14498 /* ContentView.swift in Sources */,
+				496A8BC7290F16AC00973A59 /* AccessoryListView.swift in Sources */,
+				496A8BC9290F238800973A59 /* RoomsGridView.swift in Sources */,
 				4991131A29009C8300A14498 /* SmartHome.xcdatamodeld in Sources */,
 				4991130E29009C7F00A14498 /* SmartHomeApp.swift in Sources */,
 			);
